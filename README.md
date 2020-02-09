@@ -16,12 +16,12 @@ exampleNO 毎に、カスタマイズ事例を載せてます。
 ## 事例一覧
 
 ### example001: Component
-
 公開承認機能を特定のコンテンツのみで有効化するコンポーネント。
 
 - /ExamplePlugin/Event/ExampleControllerEventListener.php
-- /ExamplePlugin/Controller/Component/ParticularContentsApproverComponent.php
     - startup() でコンポーネント呼び出す
+- /ExamplePlugin/Controller/Component/ParticularContentsApproverComponent.php
+    - コンテンツ名で有効化するコンテンツを指定している例
 
 
 ## Thanks
