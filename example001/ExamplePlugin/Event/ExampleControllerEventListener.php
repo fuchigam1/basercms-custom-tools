@@ -6,7 +6,7 @@
  * @author arata
  * @license MIT
  */
-class ExampleControllerEventListener extends BcControllerEventListener {
+class ExamplePluginControllerEventListener extends BcControllerEventListener {
 
 	public $events = [
 		'startup',
