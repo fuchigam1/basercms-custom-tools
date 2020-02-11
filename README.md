@@ -52,6 +52,15 @@ $Model->Behaviors->load('ExamplePlugin.BlogEyeCatchCrop', [
 ```
 
 
+### example003: Component
+プチカスタムフィールドのselectタイプフィールドで、ブログ記事を選択できるようにするコンポーネント。
+
+- /ExamplePlugin/Event/ExamplePluginControllerEventListener.php
+    - blogBlogPostsbeforeRender() でコンポーネント呼び出す
+- /ExamplePlugin/Controller/Component/SelectBlogPostForPetitCustomFieldComponent.php
+    - selectタイプフィールドの選択内容にブログ記事を設定している例
+
+
 ## Thanks
 
 - [http://basercms.net/](http://basercms.net/)
